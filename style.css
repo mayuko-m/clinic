@@ -1,716 +1,362 @@
-
-  html{
-    font-size: 62.5%;
-  }
-  
-  header{
-    width:192rem;
-  }
-  
-  .header-container{
-    display: flex;
-    width: 118rem;
-    height: 13rem;
-    justify-content: space-between;
-    margin-left: 35.8rem;
-    margin-right: 38.2rem;
-  }
-  
-  .header-left img{
-    width: 26.3rem;
-    height: 7.3rem;
-    margin-top: 2.9rem;
-    margin-bottom: 2.8rem;
-  }
-  
-  .phone{
-    display: flex;
-    float: right; 
-    margin-top: 0.8rem;
-  }
-  
-  .phone img{
-    width: 2.4rem;
-    height: 2.5rem;
-    margin-right: 0.5rem;
-  }
-  
-  .number{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 2.4rem/2.4rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--メインカラー);
-    font: normal normal bold 2.4rem/2.4rem 'Noto Sans JP';
-    letter-spacing: 0px;
-    text-align: right;
-    color: #21A937;
-  }
-  
-  .ukestuke{
-    margin-top: 3.3rem;
-    font: var(--unnamed-font-style-normal) normal normal 1.4rem/2.0rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    font: normal normal normal 14px/20px 'Noto Sans JP' ;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-  } 
-  
-  .bg-pic{
-    background-image: url(img/1474084_m.png);
-    background-size: cover;
-    width: 192rem;
-    height: 94.7rem;
-    padding-top: 13.3rem;
-    display: flex;
-  }
-  
-  .p1,.p2{
-    border: solid 0.1rem #FFFFFF;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 2.8rem/3.4rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: center;
-    font: normal normal bold 2.8rem/3.4rem 'Noto Sans JP';
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-    width: 10.2rem;
-    height: 56.5rem; 
-    line-height: 10.2rem;
-    padding-top: 1.8rem;
-    text-align: left;
-  } 
-  
-  .p2{
-    margin-left: 8.0rem;
-  }
-  
-  .p1{
-    margin-left: 21.1rem;
-  }
-  
-  .kakari{
-    color: #21A937;
-  }
-  
-  .section2{
-    display: flex;
-    width: 118rem;
-    margin: 0 auto;
-    margin-top: 16.2rem;
-  }
-  .section2 h1{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 2.4rem/3.5rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    font: normal normal bold 2.4rem/3.5rem Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-  }
-  
-  .yamagata{
-    background:linear-gradient(transparent 70%, #99E5A5 0%);
-    width: 27.6rem;
-    height: 3.5rem;
-    margin-top: 3.1rem;
-    margin-right: 18.3rem;
-    margin-bottom: 3.2rem;
-  }
-  
-  .egao{
-    background:linear-gradient(transparent 70%, #99E5A5 0%);
-    width: 21.6rem;
-    height: 3.5rem;
-    margin-right: 24.3rem;
-    margin-bottom: 3.7rem;
-  }
-  
-  .rozin{
-    width: 69rem;
-    height: 42rem;
-    margin-left: 4.4rem;
-    display: inline-block;
-    margin-bottom: 8.2rem;
-  }
-  
-  .section2-info{
-    width: 41.5rem;
-    height: 13.8rem;
-    font: var(--unnamed-font-style-normal) normal normal 1.6rem/3.8rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal normal 1.6rem/3.8rem Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-  }
-  
-  .section3{
-    background: #F5FCF8 0% 0% no-repeat padding-box;
-    width: 192rem;
-    height: 83.1rem;
-  }
-  
-  .care{
-    background:linear-gradient(transparent 92%, #99E5A5 0%);
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 2.4rem/3.8rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal bold 2.4rem/3.8rem Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-    height: 3.5rem;
-    width: 9.6rem;
-    padding-top: 8rem;
-    margin: 0 auto;
-  }
-  
-  .sodan{
-    width: 44.6rem;
-    height: 2.4rem;
-    margin: 6.8rem auto 0rem;
-    font: var(--unnamed-font-style-normal) normal normal 16px/38px var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal normal 16px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-  }
-  
-  .section3-box{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .box1,.box2,.box3{
-    position: relative;
-    width: 38rem;
-    height: 59.1rem;
-    margin-top: 3.3rem;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 0.2rem solid #C9C9C9;
-    border-radius: 1rem;
-    opacity: 1;
-  }
-  
-  .box2{
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-  
-  .section3-box h1{
-    margin-top: 4rem;
-    margin-bottom: 3.9rem;
-    margin-left: 9.4rem;
-    margin-right: 9.4rem;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 2.4rem/3.8rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal bold 2.4rem/3.8rem Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-  }
-  
-  .section3-box p{
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 1.6rem/3.8rem var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal bold 1.6rem/3.8rem Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-    margin-right: 3rem;
-    margin-left: 3rem;
-  }
-  
-  .section3-box img{
-    position: absolute;
-    bottom: 0px;
-    left: 9.7rem;
-    width: 18.7rem;
-    height: 18.7rem;
-    vertical-align: bottom;
-  }
-  
-  .section4{
-    background: #F5FCF8 0% 0% no-repeat padding-box;
-    opacity: 1;
-    width: 192rem;
-    height: 68.9rem;
-  }
-  
-  .oshirase{
-    background:linear-gradient(transparent 92%, #99E5A5 0%);
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 24px/38px var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal bold 24px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-    width: 9.6rem;
-    height: 3.5rem;
-    margin: 0 auto;
-    margin-bottom: 7rem;
-    padding-top: 8.2rem;
-  }
-  
-  .blog{
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 30px;
-    opacity: 1;
-    margin: 0 auto;
-    width: 118rem;
-    height: 39rem;
-  }
-  
-  .blog-info{
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: inline-block;
-    padding: 4.9rem 6.35rem 10.85rem 6.95rem;
-  }
-  
-  .blog-info tr{
-    border-bottom: solid 1px #00000029;
-    cursor: pointer;
-  }
-  
-  .blog-info tr:hover{
-    background-color: #c5f5c5;
-  }
-  
-  .date{
-    color: var(--メインカラー);
-    text-align: left;
-    font: normal normal bold 16px/38px Noto Sans JP;
-    letter-spacing: 0px;  
-    color: #21A937;
-    width: 8.6rem;
-    height: 2.4rem;
-    padding-right: 2.8rem;
-  }
-  
-  .title{
-    letter-spacing: var(--unnamed-character-spacing-0);
-    font: normal normal bold 12px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    background: var(--ベースカラー) 0% 0% no-repeat padding-box;
-    background: #494848 0% 0% no-repeat padding-box;
-    width: 7.9rem;
-    height: 2.5rem;
-    text-align: center;
-    display: inline-block;
-    margin-top: 1.95rem;
-    margin-bottom: 1.95rem;
-    line-height: 2.5rem;
-  }
-  
-  .info{
-    font: normal normal bold 16px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    opacity: 1;
-    padding-left: 3.1rem;
-    transition: 1.0s ;
-  }
-  
-  .position{
-    position: relative;
-  }
-  
-  .section4 .blog .blog-info .all-tr{
-    border: none;
-  }
-  
-  .blog a{
-    text-align: left;
-    font: normal normal bold 16px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    display: inline-block;
-    margin-top: 4.05rem;
-    text-decoration: none;
-    position: absolute;
-    right: 0px;
-    top: -27px;
-  }
-  
-  .blog a:hover{
-    background-color:#c5f5c5;
-    color: #444444;
-    border-radius: 30px;
-    opacity: 0.33;
-  }
-  
-  .section5{
-    display: flex;
-    width: 118rem;
-    height: 79.9rem;
-    margin: 0 auto;
-    padding-top: 17.2rem;
-  }
-  
-  .section5-left{
-    margin-right: 3.6rem;
-    width: 60.8rem;
-    height: 44rem;
-  }
-  
-  .section5-logo{
-    width: 26.3rem;
-    height: 7.3rem;
-    display: inline-block;
-    margin-bottom: 2.5rem;
-  }
-  
-  .adoress{
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal normal 16px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-  }
-  
-  .phone2{
-    display: flex;
-  }
-  
-  .phone2 img{
-    margin-right: 0.478rem;
-    margin-bottom: 2.85rem;
-    margin-top: 2.5rem;
-  }
-  
-  .number2{
-    text-align: right;
-    font: normal normal bold 24px/24px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #21A937;
-    margin-bottom: 2.85rem;
-    margin-top: 2.5rem;
-  }
-  
-  .table2{
-    border-collapse: coll apse;
-    border-spacing: 0;
-    width: 100%;
-    width: 53.3rem;
-    /* height: 18.2rem; */
-  }
-  
-  .table2 tr{
-    height: 2rem;
-  }
-  
-  .hour{
-    font: var(--unnamed-font-style-normal) normal normal 14px/38px var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal normal 14px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-    border-right: solid 2px #E7E7E7;
-  }
-  
-  .holiday{
-    font: var(--unnamed-font-style-normal) normal normal 14px/38px var(--unnamed-font-family-noto-sans-jp);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--ベースカラー);
-    text-align: left;
-    font: normal normal normal 14px/38px Noto Sans JP;
-    letter-spacing: 0px;
-    color: #444444;
-  }
-  
-  .mon{
-    padding-left: 2.85rem;
-  }
-  
-  .thu{
-    padding-top: 1.3rem;
-    padding-left: 2.85rem;
-  }
-  
-  .stu{
-    padding-top: 1.3rem;
-    padding-left: 2.85rem;
-  }
-  
-  .sun{
-    padding-top: 1.3rem;
-    padding-left: 2.85rem;
-  }
-  
-  .holiday{
-    border-right: solid 2px  #E7E7E7;
-  }
-  
-  .uesen{
-    border-top: solid 2px  #E7E7E7;
-    margin-bottom: 1.9rem;
-  }
-  
-  .shitasen{
-    border-top: solid 2px  #E7E7E7;
-    margin-top: 1.9rem;
-    position: relative;
-  }
-  
-  .fini{
-    padding-top: 2.15rem;
-    position: absolute;
-    right: 356px;
-  }
-  .am2, .pm2{
-    padding-top: 1.3rem;
-  }
-  
-  .am3, .pm3{
-    padding-top: 1.3rem;
-  }
-  
-  .table2 p{
-    width: 3.3rem;
-    /* border-bottom: solid 3px #99E5A5; */
-    background:linear-gradient(transparent 75%, #99E5A5 0%);
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+  font-family: 'Noto Sans JP';
+  color: #444444;
 }
 
-@media only screen and (max-width:375px){
+header {
+  height: 13rem;
+}
 
-  html{
-    font-size: 50%;
-  }
+header .header-container {
+  padding-top: 2.9rem;
+  padding-bottom: 2.9rem;
+  display: flex;
+  width: 118rem;
+  justify-content: space-between;
+  margin: auto;
+}
 
-  .bg-pic{
-    background: url(img/1474084_m.png) no-repeat;
-    background-size: cover;
+header .header-container .header-left img {
+  width: 26.3rem;
+  height: 7.3rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header .header-container .header-right {
+  height: 7.3rem;
+  font-size: 1.4rem;
+}
+
+header .header-container .header-right .phone {
+  margin-top: 0.7rem;
+  display: flex;
+  width: 20rem;
+  margin-left: auto;
+}
+
+header .header-container .header-right .phone img {
+  width: 2.4rem;
+  height: 2.5rem;
+}
+
+header .header-container .header-right .phone p {
+  color: #21A937;
+  font-size: 2.4rem;
+  margin-left: 0.5rem;
+}
+
+.bg_pic {
+  background-image: url(img/1474084_m@2x.png);
+  height: 94.7rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-bottom: 16.2rem;
+}
+
+.bg_pic p {
+  writing-mode: vertical-rl;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 3.4rem;
+  background-color: #FFFFFF;
+  width: 10.2rem;
+  line-height: 10.2rem;
+  height: 56.5rem;
+  margin-top: 13.3rem;
+  padding-top: 1.8rem;
+}
+
+.bg_pic .caption_left {
+  margin-right: 8rem;
+  margin-left: 21.1rem;
+}
+
+.bg_pic .caption_left span {
+  color: #21A937;
+}
+
+@media (max-width: 480px) {
+  .bg_pic {
     width: 100%;
-    display: flex;
-    height:60rem;
+    height: auto;
     background-position: center;
   }
+}
 
-  .header-container{
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  width: 118rem;
+  margin: auto;
+}
+
+.introduction .salutation h1 {
+  background: linear-gradient(transparent 70%, #99E5A5 0%);
+  font-size: 2.4rem;
+  margin-top: 3.1rem;
+  margin-left: 3.1rem;
+  display: inline-block;
+}
+
+.introduction .salutation p {
+  font-size: 1.6rem;
+  line-height: 3.8rem;
+  margin-left: 3.1rem;
+  margin-top: 3.7rem;
+}
+
+.introduction img {
+  width: 69rem;
+  height: 42rem;
+  margin-bottom: 3.8rem;
+}
+
+@media (max-width: 480px) {
+  .introduction {
     display: block;
-    height: 20rem
   }
-
-  .header-left img{
-    position: absolute;
-    top: 0px;
-    left: 7rem;
-  }
-
-  .ukestuke{
-    position: absolute;
-    top: 10rem;
-    left: 0px;
-  }
-
-  .phone{
-    position: absolute;
-    top: 16rem;
-    left: 0px;
-  }
-.p2{
-  position: absolute;
-  top: 26rem;
-  left: 0px;
 }
 
-.section2{
-  display: block; 
+.treatmentContent {
+  background-color: #F5FCF8;
+  text-align: center;
+  padding-top: 7.8rem;
+}
+
+.treatmentContent h1 {
+  font-size: 2.4rem;
+}
+
+.treatmentContent .treat {
+  background: linear-gradient(transparent 70%, #99E5A5 0%);
+  width: 9.6rem;
+  display: inline-block;
+  margin-bottom: 7rem;
+}
+
+.treatmentContent p {
+  font-size: 1.6rem;
+}
+
+.treatmentContent .symptom {
+  display: flex;
+  width: 118rem;
+  margin: auto;
+  margin-top: 3.4rem;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #FFFFFF;
+  border: 2px solid #C9C9C9;
+  border-radius: 10px;
+  height: 59.1rem;
+  width: 38rem;
+  padding-top: 4rem;
+  text-align: center;
   position: relative;
-  width: 100%;
 }
 
-.rozin{
-  margin: 2rem;
-  width: 90% ;
-  height: auto;
+.box h1 {
+  margin-bottom: 4.5rem;
 }
 
-.yamagata{
-  margin-left: 3rem;  
+.box p {
+  line-height: 3.8rem;
+  display: inline-block;
+  text-align: left;
 }
 
-.egao{
-  margin-left: 3rem;
+.box img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
 }
 
-.section2-info{
-  margin-left: 3rem;
+@media (max-width: 480px) {
+  .treatmentContent .symptom {
+    display: block;
+  }
 }
 
-.section3-box{
-  display: block;
+.infomation {
+  background-color: #F5FCF8;
+  padding-top: 8.2rem;
+  padding-bottom: 11.2rem;
+  text-align: center;
 }
 
-.care{
-  margin: initial;
-  margin-left: 18rem;
+.infomation h1 {
+  font-size: 2.4rem;
+  background: linear-gradient(transparent 70%, #99E5A5 0%);
+  width: 9.6rem;
+  margin: auto;
+  margin-bottom: 7rem;
 }
 
-.sodan{
-  margin: initial;
-  margin-left: 1rem;
-}
-
-.box1{
-  margin: 7rem 4rem 2rem; 
-
-}
-
-.box2{
-  margin: 1rem 4rem 2rem;
-}
-
-.box3{
-  margin: 1rem 4rem 2rem;
-}
-
-.section3{
-  height: 203rem;
-  width: 100%;
-}
-
-.section4{
-  height: 112rem;
-  width: 100%;
-}
-
-.oshirase{
-  margin: 0rem 16rem 0rem;
-  width: 12.6rem;
-  height: 4.5rem;
-}
-
-.blog-info td{
-  display: block;
-  width: 100%;
-}
-
-.blog{
-  margin: 1.5rem;
-  width: 44rem;
-  height: auto;
-}
-
-.blog-info{
-  padding: 5rem;
-}
-
-.section5{
-  display: block;
-  padding: initial;
-  width: 100%;
-}
-
-.section5-left{
+.infomation .info_contents {
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 118rem;
   height: 39rem;
+  border-radius: 30px;
+  padding-top: 4.9rem;
 }
 
-.section5-left img{
-  width: 73%;
-  height: auto;
-  margin: 1.3rem;
+.infomation .info_contents table {
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 104.8rem;
+  margin: auto;
+  border-collapse: collapse;
 }
 
-.section5-logo{
-  margin-left: 10rem;
+.infomation .info_contents table tr {
+  height: 6.3rem;
 }
 
-.adoress{
-  margin-left: 5rem;
+.infomation .info_contents table tr td {
+  border-bottom: 1px solid #E7E7E7;
+  line-height: 6.3rem;
 }
 
-.phone2{
-  margin-left: 5rem
+.infomation .info_contents table tr .date {
+  color: #21A937;
+  padding-right: 3rem;
 }
 
-.uesen, .shitasen{
-  width: 40rem;
-  margin-left: 3.5rem;
+.infomation .info_contents table tr .title {
+  color: #FFFFFF;
+  background-color: #444444;
+  width: 8rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
 }
 
-.table2 td,
-.table2 th{
+.infomation .info_contents table tr .info {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.infomation .info_contents table .bottom_tr td {
+  border: none;
+}
+
+.infomation .info_contents table .more {
+  text-align: right;
   display: block;
-  text-align: center;
-}
-.table2 td p{
-  margin: 0 auto;
-  width: max-content;
+  text-decoration: none;
 }
 
-
-.mon, .thu, .stu, .sun{
-  padding-left: 0rem;
+.profile {
+  width: 118rem;
+  margin: auto;
+  display: flex;
+  padding-top: 19.6rem;
+  padding-bottom: 16.3rem;
 }
 
-.mon{
-  margin-bottom: 1rem;
+.profile .map {
+  width: 60.8rem;
+  height: 44rem;
 }
 
-.am1{
-  margin-bottom: 1rem;
+.profile .profile_right {
+  padding-left: 3.4rem;
 }
 
-.sun{
-  padding-top: 0rem;
+.profile .profile_right .profile_logo {
+  width: 26.3rem;
+  height: 7.3rem;
+  margin-bottom: 2.5rem;
 }
 
-.holiday{
-  margin-top: 3rem;
-  border: none;
+.profile .profile_right .adoress {
+  font-size: 1.6rem;
 }
 
-.fini{
-  text-align: center;
-  position: initial;
-
+.profile .profile_right .profile_phone {
+  display: flex;
+  margin-top: 3.221rem;
+  margin-bottom: 2.85rem;
 }
 
-.hour{
-  border: none;
+.profile .profile_right .profile_phone img {
+  width: 2.436rem;
+  height: 2.457rem;
 }
 
-.section5-right{
-  width: 47rem;
+.profile .profile_right .profile_phone .phone_number {
+  font-size: 2.4rem;
+  color: #21A937;
 }
 
-.header-container{
-  width: 100%;
-  margin: initial ;
+.profile .profile_right .line_top {
+  border-bottom: 2px solid #E7E7E7;
+  width: 53.3rem;
 }
 
-.header-right{
-  width: 100%;
+.profile .profile_right .schedule {
+  font-size: 1.4rem;
 }
 
-header{
-  width: 100%;
+.profile .profile_right .schedule .consultation {
+  display: flex;
 }
 
-} 
+.profile .profile_right .schedule .consultation .consultation＿hours {
+  height: 9.5rem;
+  border-right: 2px solid #E7E7E7;
+  margin-top: 1.9rem;
+}
 
+.profile .profile_right .schedule .consultation .consultation＿hours p {
+  padding-top: 0.25rem;
+  padding-right: 2.85rem;
+}
+
+.profile .profile_right .schedule .consultation .time_table {
+  height: 8.6rem;
+  margin-top: 2.15rem;
+  margin-left: 2.85rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.profile .profile_right .schedule .consultation .time_table .day_time {
+  display: flex;
+}
+
+.profile .profile_right .schedule .closed {
+  display: flex;
+  margin-bottom: 1.9rem;
+}
+
+.profile .profile_right .schedule .closed .closed_days {
+  height: 2.9rem;
+  border-right: 2px solid #E7E7E7;
+}
+
+.profile .profile_right .schedule .closed .closed_days p {
+  margin-right: 4.25rem;
+  line-height: 2.9rem;
+}
+
+.profile .profile_right .schedule .closed .holiday {
+  margin-left: 2.85rem;
+  height: 2.9rem;
+  line-height: 2.9rem;
+}
+
+.profile .profile_right .copy {
+  padding-top: 2.15rem;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */

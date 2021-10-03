@@ -1,0 +1,341 @@
+// base css//
+
+@import"variables";
+
+html{
+  font-size: 62.5%;
+  font-family: 'Noto Sans JP';
+  color: $basecolor;
+}
+
+// header //
+header{
+  height: 13rem;
+  .header-container{
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+    display: flex;
+    width: 118rem;
+    justify-content: space-between;
+    margin: auto;
+    .header-left img{
+      width: 26.3rem;
+      height: 7.3rem;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .header-right{
+      height: 7.3rem;
+      font-size: 1.4rem;
+      .phone{
+        margin-top: 0.7rem;
+        display: flex;
+        width: 20rem;
+        margin-left: auto;
+        img{
+          width: 2.4rem;
+          height: 2.5rem;
+        }
+        p{
+          color: $maincolor;
+          font-size: 2.4rem;
+          margin-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+
+
+
+// main visual //
+
+.bg_pic{
+  background-image: url(img/1474084_m@2x.png);
+  height: 94.7rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  margin-bottom: 16.2rem;
+  p{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 3.4rem;
+    background-color: #FFFFFF;
+    width: 10.2rem;
+    line-height: 10.2rem;
+    height: 56.5rem;
+    margin-top: 13.3rem;
+    padding-top: 1.8rem;
+  }
+  .caption_left{
+    margin-right: 8rem;
+    margin-left: 21.1rem;
+    span{
+      color: $maincolor;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .bg_pic {
+    width: 100%;
+    height: auto;
+    background-position: center;
+  }
+}
+
+// introduction//
+
+.introduction{
+  display: flex;
+  justify-content: space-between;
+  width: 118rem;
+  margin: auto;
+  .salutation{
+    h1{
+      background: $underline;
+      font-size: 2.4rem;
+      margin-top: 3.1rem;
+      margin-left: 3.1rem;
+      display: inline-block;
+    }
+    p{
+      font-size: 1.6rem;
+      line-height: 3.8rem;
+      margin-left: 3.1rem;
+      margin-top: 3.7rem;
+    }
+  }
+  img{
+    width: 69rem;
+    height: 42rem;
+    margin-bottom: 3.8rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .introduction{
+    display: block;
+  }
+}
+
+
+
+// treatmentContent //
+
+.treatmentContent{
+  background-color: $backgreen;
+  text-align: center;
+  padding-top: 7.8rem;
+  h1{
+    font-size: 2.4rem;
+  }
+  .treat{
+    background: $underline;
+    width: 9.6rem;
+    display: inline-block;
+    margin-bottom: 7rem;
+  }
+  p{
+    font-size: 1.6rem;
+  }
+  .symptom{
+    display: flex;
+    width: 118rem;
+    margin: auto;
+    margin-top: 3.4rem;
+    justify-content: space-between;
+  }
+}
+
+@mixin card {
+  background-color: #FFFFFF;
+  border: 2px solid #C9C9C9;
+  border-radius: 10px;
+  height: 59.1rem;
+  width: 38rem;
+  padding-top: 4rem;
+  text-align: center;
+  position: relative;
+  h1{
+    margin-bottom: 4.5rem
+  }
+  p{
+    line-height: 3.8rem;
+    display: inline-block;
+    text-align: left;
+  }
+  img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+  }
+}
+
+.box{
+  @include card;
+}
+
+@media (max-width: 480px) {
+  .treatmentContent .symptom{
+    display: block;
+  }
+}
+
+
+
+// nfomation //
+
+.infomation{
+  background-color: $backgreen;
+  padding-top: 8.2rem;
+  padding-bottom: 11.2rem;
+  text-align: center;
+  h1{
+    font-size: 2.4rem;
+    background: $underline;
+    width: 9.6rem;
+    margin: auto;
+    margin-bottom: 7rem;
+  }
+  .info_contents{
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 118rem;
+    height: 39rem;
+    border-radius: 30px;
+    padding-top: 4.9rem;
+    table{
+      font-size: 1.6rem;
+      font-weight: bold;
+      width: 104.8rem;
+      margin: auto;
+      border-collapse: collapse;
+      tr{
+        height: 6.3rem;
+        td{
+          border-bottom: 1px solid $tableline;
+          line-height: 6.3rem;
+        }
+        .date{
+          color: #21A937;
+          padding-right: 3rem;
+        }
+        .title{
+          color: #FFFFFF;
+          background-color: $basecolor;
+          width: 8rem;
+          height: 2.5rem;
+          line-height: 2.5rem;
+        }
+        .info{
+          text-align: left;
+          padding-left: 3rem;
+        }
+      }
+      .bottom_tr td{
+        border: none;
+      }
+      .more{
+        text-align: right;
+        display: block;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+//  profile //
+
+.profile{
+  width: 118rem;
+  margin: auto;
+  display: flex;
+  padding-top: 19.6rem;
+  padding-bottom: 16.3rem;
+  .map{
+    width: 60.8rem;
+    height: 44rem;
+  }
+  .profile_right{
+    padding-left: 3.4rem;
+    .profile_logo{
+      width: 26.3rem;
+      height: 7.3rem;
+      margin-bottom: 2.5rem;
+    }
+    .adoress{
+      font-size: 1.6rem;
+    }
+    .profile_phone{
+      display: flex;
+      margin-top: 3.221rem;
+      margin-bottom: 2.85rem;
+      img{
+        width: 2.436rem;
+        height: 2.457rem;
+      }
+      .phone_number{
+        font-size: 2.4rem;
+        color: $maincolor;
+      }
+    }
+    .line_top{
+      border-bottom: 2px solid $tableline;
+      width: 53.3rem;
+    }
+    .schedule{
+      font-size: 1.4rem;
+      .consultation{
+        display: flex;
+        .consultation＿hours{
+          height: 9.5rem;
+          border-right: 2px solid $tableline;
+          margin-top: 1.9rem; 
+          p{
+            padding-top: 0.25rem;
+            padding-right: 2.85rem;
+          }
+        }
+        .time_table{
+          height: 8.6rem;
+          margin-top: 2.15rem;
+          margin-left: 2.85rem;
+          margin-bottom: 2rem;
+          display: flex;
+          flex-flow: column;
+          justify-content: space-between;
+          .day_time{
+            display: flex;
+          }
+        }
+      }
+      .closed{
+        display: flex;
+        margin-bottom: 1.9rem;
+        .closed_days{
+          height: 2.9rem;
+          border-right: 2px solid $tableline;
+          p{
+            margin-right: 4.25rem;
+            line-height: 2.9rem;
+          }
+        }
+        .holiday{
+          margin-left: 2.85rem;
+          height: 2.9rem;
+          line-height: 2.9rem;
+        }
+      }
+    }
+    .copy{
+      padding-top: 2.15rem;
+      text-align: right;
+    }
+  }
+}
