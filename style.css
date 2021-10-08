@@ -48,6 +48,23 @@ header .header-container .header-right .phone p {
   margin-left: 0.5rem;
 }
 
+@media (max-width: 480px) {
+  header {
+    width: 100%;
+    height: 20rem;
+  }
+  header .header-container {
+    width: 100%;
+    display: block;
+  }
+  header .header-container .header-left img {
+    margin-bottom: 3rem;
+  }
+  header .header-container .header-right .phone {
+    margin-left: initial;
+  }
+}
+
 .bg_pic {
   background-image: url(img/1474084_m@2x.png);
   height: 94.7rem;
@@ -84,6 +101,15 @@ header .header-container .header-right .phone p {
     width: 100%;
     height: auto;
     background-position: center;
+    margin-bottom: 2.2rem;
+  }
+  .bg_pic p {
+    margin-bottom: 2rem;
+    height: 51.5rem;
+  }
+  .bg_pic .caption_left {
+    margin-left: 3rem;
+    margin-right: 2rem;
   }
 }
 
@@ -118,6 +144,24 @@ header .header-container .header-right .phone p {
 @media (max-width: 480px) {
   .introduction {
     display: block;
+    width: 100%;
+  }
+  .introduction .salutation {
+    text-align: center;
+  }
+  .introduction .salutation h1 {
+    margin: initial;
+    line-height: 3.4rem;
+  }
+  .introduction .salutation p {
+    margin: 1rem 3rem;
+    text-align: left;
+  }
+  .introduction img {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin: auto;
   }
 }
 
@@ -179,8 +223,29 @@ header .header-container .header-right .phone p {
 }
 
 @media (max-width: 480px) {
+  .treatmentContent {
+    width: 100%;
+    height: auto;
+  }
+  .treatmentContent > p {
+    line-height: 1.6;
+  }
+  .treatmentContent p {
+    margin-bottom: 2rem;
+  }
   .treatmentContent .symptom {
     display: block;
+    width: 100%;
+    height: auto;
+    margin: initial;
+  }
+  .treatmentContent .symptom .box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .treatmentContent .symptom .box3 {
+    margin-bottom: initial;
   }
 }
 
@@ -241,6 +306,7 @@ header .header-container .header-right .phone p {
 .infomation .info_contents table tr .info {
   text-align: left;
   padding-left: 3rem;
+  padding-bottom: 2rem;
 }
 
 .infomation .info_contents table .bottom_tr td {
@@ -251,6 +317,30 @@ header .header-container .header-right .phone p {
   text-align: right;
   display: block;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .infomation .info_contents {
+    width: 93%;
+    height: auto;
+  }
+  .infomation .info_contents table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin: initial;
+  }
+  .infomation .info_contents table tr td {
+    display: block;
+    line-height: 2.3rem;
+  }
+  .infomation .info_contents table tr .date {
+    padding-right: initial;
+    margin-top: 1rem;
+  }
+  .infomation .info_contents table .more {
+    margin-top: 2rem;
+  }
 }
 
 .profile {
@@ -358,5 +448,41 @@ header .header-container .header-right .phone p {
 .profile .profile_right .copy {
   padding-top: 2.15rem;
   text-align: right;
+}
+
+@media (max-width: 480px) {
+  .profile {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: initial;
+  }
+  .profile .map {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .profile .profile_right {
+    padding-left: initial;
+  }
+  .profile .profile_right .line_top {
+    width: 100%;
+  }
+  .profile .profile_right .schedule .consultation .time_table {
+    margin-left: 1rem;
+  }
+  .profile .profile_right .schedule .consultation .time_table .day_time .am {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .profile .profile_right .schedule .consultation .consultation＿hours p {
+    padding-right: 1rem;
+  }
+  .profile .profile_right .schedule .closed .closed_days p {
+    margin-right: 2.5rem;
+  }
+  .profile .profile_right .schedule .closed .holiday {
+    margin-left: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

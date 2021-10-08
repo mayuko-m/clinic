@@ -46,6 +46,22 @@ header{
     }
   }
 
+  @media (max-width: 480px) {
+    header{
+      width: 100%;
+      height: 20rem;
+      .header-container{
+        width: 100%;
+        display: block;
+        .header-left img{
+          margin-bottom: 3rem;
+        }
+        .header-right .phone{
+          margin-left: initial;
+        }
+      }
+    }
+  }
 
 
 // main visual //
@@ -84,6 +100,15 @@ header{
     width: 100%;
     height: auto;
     background-position: center;
+    margin-bottom: 2.2rem;
+    p{
+      margin-bottom: 2rem;
+      height: 51.5rem;
+    }
+    .caption_left{
+      margin-left: 3rem;
+      margin-right: 2rem;
+    }
   }
 }
 
@@ -120,6 +145,24 @@ header{
 @media (max-width: 480px) {
   .introduction{
     display: block;
+    width: 100%;
+    .salutation{
+      text-align: center;
+      h1{
+        margin: initial;
+        line-height: 3.4rem;
+      }
+      p{
+        margin: 1rem 3rem;
+        text-align: left;
+      }
+    }
+    img{
+      width: 95%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
   }
 }
 
@@ -182,8 +225,29 @@ header{
 }
 
 @media (max-width: 480px) {
-  .treatmentContent .symptom{
-    display: block;
+  .treatmentContent{
+    width: 100%;
+    height: auto;
+    > p{
+      line-height: 1.6;
+    }
+    p{
+      margin-bottom: 2rem;
+    }
+    .symptom{
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: initial;
+      .box{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+      }
+      .box3{
+        margin-bottom: initial;
+      }
+    }
   }
 }
 
@@ -236,6 +300,7 @@ header{
         .info{
           text-align: left;
           padding-left: 3rem;
+          padding-bottom: 2rem;
         }
       }
       .bottom_tr td{
@@ -245,6 +310,30 @@ header{
         text-align: right;
         display: block;
         text-decoration: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .infomation .info_contents{
+    width: 93%;
+    height: auto;
+    table{
+      border-collapse: collapse;
+      text-align: center;
+      width: 100%;
+      margin: initial;
+      tr td{
+        display: block;
+        line-height: 2.3rem;
+      }
+      tr .date{
+        padding-right: initial;
+        margin-top: 1rem;
+      }
+      .more{
+        margin-top: 2rem;
       }
     }
   }
@@ -336,6 +425,42 @@ header{
     .copy{
       padding-top: 2.15rem;
       text-align: right;
+    }
+  }
+}
+
+@media (max-width: 480px){
+  .profile{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: initial;
+    .map{
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    .profile_right {
+      padding-left: initial;
+      .line_top{
+        width: 100%;
+      }
+      .schedule .consultation .time_table{
+        margin-left: 1rem;
+        .day_time .am{
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+      }
+      .schedule .consultation .consultation＿hours p{
+        padding-right: 1rem;
+      }
+      .schedule .closed .closed_days p{
+        margin-right: 2.5rem;
+      }
+      .schedule .closed  .holiday{
+        margin-left: 1rem;
+      }
     }
   }
 }
